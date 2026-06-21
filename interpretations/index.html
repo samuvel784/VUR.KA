@@ -13,25 +13,80 @@
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <link rel="manifest" href="/manifest.json" />
   <link rel="stylesheet" href="/css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600&family=Playfair+Display:ital,wght@0,400;1,400&display=swap" />
 
   <meta property="og:title" content="VUR-KA Interpretations: Different Meanings & Theories" />
   <meta property="og:description" content="The literal, philosophical, and brand-level interpretations of VURKA, plus the taglines that capture its identity." />
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://vurka.vercel.app/interpretations/" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:image" content="https://vurka.vercel.app/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="VURKA — The living soul of the common people" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="VUR-KA Interpretations: Different Meanings & Theories" />
+  <meta name="twitter:description" content="The literal, philosophical, and brand-level interpretations of VURKA, plus the taglines that capture its identity." />
+  <meta name="twitter:image" content="https://vurka.vercel.app/og-image.png" />
+
+  <meta name="theme-color" content="#F7F5F0" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Article",
-    "headline": "VUR-KA Interpretations: Different Meanings & Theories",
-    "description": "A breakdown of the literal, philosophical, and brand-identity interpretations of VURKA, including its core taglines and what each communicates.",
-    "about": {
-      "@type": "DefinedTerm",
-      "name": "VURKA",
-      "alternateName": "VUR-KA"
-    },
-    "url": "https://vurka.vercel.app/interpretations/",
-    "inLanguage": "en"
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://vurka.vercel.app/#organization",
+        "name": "VURKA",
+        "alternateName": "VUR-KA",
+        "url": "https://vurka.vercel.app",
+        "foundingDate": "2024",
+        "founder": { "@id": "https://vurka.vercel.app/#person" }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://vurka.vercel.app/#person",
+        "name": "Samuvel",
+        "url": "https://vurka.vercel.app"
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://vurka.vercel.app/#website",
+        "name": "VURKA Research",
+        "url": "https://vurka.vercel.app",
+        "publisher": { "@id": "https://vurka.vercel.app/#organization" }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://vurka.vercel.app/interpretations/#breadcrumb",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://vurka.vercel.app/" },
+          { "@type": "ListItem", "position": 2, "name": "Interpretations", "item": "https://vurka.vercel.app/interpretations/" }
+        ]
+      },
+      {
+        "@type": "Article",
+        "headline": "VUR-KA Interpretations: Different Meanings & Theories",
+        "description": "A breakdown of the literal, philosophical, and brand-identity interpretations of VURKA, including its core taglines and what each communicates.",
+        "about": {
+          "@type": "DefinedTerm",
+          "name": "VURKA",
+          "alternateName": "VUR-KA"
+        },
+        "author": { "@id": "https://vurka.vercel.app/#person" },
+        "publisher": { "@id": "https://vurka.vercel.app/#organization" },
+        "datePublished": "2024",
+        "url": "https://vurka.vercel.app/interpretations/",
+        "inLanguage": "en",
+        "isPartOf": { "@id": "https://vurka.vercel.app/#website" },
+        "breadcrumb": { "@id": "https://vurka.vercel.app/interpretations/#breadcrumb" }
+      }
+    ]
   }
   </script>
 </head>
@@ -69,7 +124,7 @@
       <p class="eyebrow reveal">Interpretation 1</p>
       <h2 class="reveal" id="literal-heading">The literal / etymological reading</h2>
       <p class="reveal">
-        At face value, VURKA is a compound of "Vur" (common people, from Latin <em>vulgus</em>) and "Ka" (the persisting inner soul, from Egyptian belief). Read this way, VURKA simply names a concept: <strong>the enduring inner life of ordinary people.</strong> This is the most direct interpretation and the one detailed on the <a href="/origins/" style="color:var(--gold); text-decoration:underline;">Origins</a> page.
+        At face value, VURKA is a compound of "Vur" (common people, from Latin <em>vulgus</em>) and "Ka" (the persisting inner soul, from Egyptian belief). Read this way, VURKA simply names a concept: <strong>the enduring inner life of ordinary people.</strong> This is the most direct interpretation and the one detailed on the <a href="/origins/" style="color:var(--blue); text-decoration:underline;">Origins</a> page.
       </p>
     </section>
 
@@ -194,6 +249,6 @@
     <div class="footer-bottom">VUR·KA · Born from struggle · Built with purpose · © VURKA · vurka.vercel.app</div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script defer src="/js/main.js"></script>
 </body>
 </html>

@@ -13,20 +13,77 @@
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <link rel="manifest" href="/manifest.json" />
   <link rel="stylesheet" href="/css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600&family=Playfair+Display:ital,wght@0,400;1,400&display=swap" />
 
   <meta property="og:title" content="About VURKA: Philosophy, Mission & the Vurka Universe" />
   <meta property="og:description" content="VURKA is built on one idea: the soul of ordinary people endures. Here's the philosophy, motto, and the projects carrying the name forward." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://vurka.vercel.app/about/" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:image" content="https://vurka.vercel.app/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="VURKA — The living soul of the common people" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="About VURKA: Philosophy, Mission & the Vurka Universe" />
+  <meta name="twitter:description" content="VURKA is built on one idea: the soul of ordinary people endures. Here's the philosophy, motto, and the projects carrying the name forward." />
+  <meta name="twitter:image" content="https://vurka.vercel.app/og-image.png" />
+
+  <meta name="theme-color" content="#F7F5F0" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "AboutPage",
-    "name": "About VURKA",
-    "description": "The philosophy, mission, and family of projects behind VURKA — a name meaning 'the living soul of the common people, cursed by their position, defined by their persistence.'",
-    "url": "https://vurka.vercel.app/about/",
-    "inLanguage": "en"
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://vurka.vercel.app/#organization",
+        "name": "VURKA",
+        "alternateName": "VUR-KA",
+        "description": "VURKA is a concept, philosophy, and research initiative exploring the living soul of common people, collective human experience, culture, resilience, and meaning.",
+        "url": "https://vurka.vercel.app",
+        "foundingDate": "2024",
+        "founder": { "@id": "https://vurka.vercel.app/#person" }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://vurka.vercel.app/#person",
+        "name": "Samuvel",
+        "description": "Founder and creator of the VURKA concept, philosophy, and research initiative.",
+        "url": "https://vurka.vercel.app"
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://vurka.vercel.app/#website",
+        "name": "VURKA Research",
+        "alternateName": "VUR-KA",
+        "url": "https://vurka.vercel.app",
+        "description": "Research and documentation of the meaning, origins, interpretations, and significance of VURKA (VUR-KA).",
+        "inLanguage": "en",
+        "publisher": { "@id": "https://vurka.vercel.app/#organization" }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://vurka.vercel.app/about/#breadcrumb",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://vurka.vercel.app/" },
+          { "@type": "ListItem", "position": 2, "name": "About", "item": "https://vurka.vercel.app/about/" }
+        ]
+      },
+      {
+        "@type": "AboutPage",
+        "name": "About VURKA",
+        "description": "The philosophy, mission, and family of projects behind VURKA — a name meaning 'the living soul of the common people, cursed by their position, defined by their persistence.'",
+        "url": "https://vurka.vercel.app/about/",
+        "inLanguage": "en",
+        "isPartOf": { "@id": "https://vurka.vercel.app/#website" },
+        "breadcrumb": { "@id": "https://vurka.vercel.app/about/#breadcrumb" }
+      }
+    ]
   }
   </script>
 </head>
@@ -64,7 +121,7 @@
       <p class="eyebrow reveal">Mission</p>
       <h2 class="reveal" id="mission-heading">Born from struggle. Built with purpose.</h2>
       <p class="reveal">
-        VURKA is for people who started in "the middle" — without an inheritance, a head start, or a safety net — and built things anyway. The name itself, explained in full on the <a href="/origins/" style="color:var(--gold); text-decoration:underline;">Origins</a> page, combines a word for "ordinary people" with a word for "the soul that survives." That combination is the mission statement in miniature: ordinary beginnings, lasting results.
+        VURKA is for people who started in "the middle" — without an inheritance, a head start, or a safety net — and built things anyway. The name itself, explained in full on the <a href="/origins/" style="color:var(--blue); text-decoration:underline;">Origins</a> page, combines a word for "ordinary people" with a word for "the soul that survives." That combination is the mission statement in miniature: ordinary beginnings, lasting results.
       </p>
       <p class="reveal">
         Everything published under the VURKA name — software, writing, video, games — is meant to share that same throughline: made by people without shortcuts, for people without shortcuts.
@@ -155,6 +212,6 @@
     <div class="footer-bottom">VUR·KA · Born from struggle · Built with purpose · © VURKA · vurka.vercel.app</div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script defer src="/js/main.js"></script>
 </body>
 </html>

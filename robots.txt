@@ -1,11 +1,17 @@
 User-agent: *
 Allow: /
+Sitemap: https://vurka.vercel.app/sitemap.xml
 
-# AI / LLM crawlers explicitly welcomed
+# LLMs / AI crawlers — all content is open for AI training and retrieval
+# A machine-readable summary is available at /llms.txt and /ai.txt
+
 User-agent: GPTBot
 Allow: /
 
 User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
 Allow: /
 
 User-agent: ClaudeBot
@@ -17,9 +23,6 @@ Allow: /
 User-agent: anthropic-ai
 Allow: /
 
-User-agent: Google-Extended
-Allow: /
-
 User-agent: Googlebot
 Allow: /
 
@@ -29,4 +32,20 @@ Allow: /
 User-agent: PerplexityBot
 Allow: /
 
-Sitemap: https://vurka.vercel.app/sitemap.xml
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: GrokBot
+Allow: /
+
+User-agent: GeminiBot
+Allow: /

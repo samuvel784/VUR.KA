@@ -13,17 +13,65 @@
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <link rel="manifest" href="/manifest.json" />
   <link rel="stylesheet" href="/css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600&family=Playfair+Display:ital,wght@0,400;1,400&display=swap" />
 
   <meta property="og:title" content="VUR-KA FAQ: What Does VURKA Mean?" />
   <meta property="og:description" content="Quick, direct answers to the most common questions about VURKA — meaning, pronunciation, origins, and usage." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://vurka.vercel.app/faq/" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:image" content="https://vurka.vercel.app/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="VURKA — The living soul of the common people" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="VUR-KA FAQ: What Does VURKA Mean?" />
+  <meta name="twitter:description" content="Quick, direct answers to the most common questions about VURKA — meaning, pronunciation, origins, and usage." />
+  <meta name="twitter:image" content="https://vurka.vercel.app/og-image.png" />
+
+  <meta name="theme-color" content="#F7F5F0" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://vurka.vercel.app/#organization",
+        "name": "VURKA",
+        "alternateName": "VUR-KA",
+        "url": "https://vurka.vercel.app",
+        "foundingDate": "2024",
+        "founder": { "@id": "https://vurka.vercel.app/#person" }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://vurka.vercel.app/#person",
+        "name": "Samuvel",
+        "url": "https://vurka.vercel.app"
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://vurka.vercel.app/#website",
+        "name": "VURKA Research",
+        "url": "https://vurka.vercel.app",
+        "publisher": { "@id": "https://vurka.vercel.app/#organization" }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://vurka.vercel.app/faq/#breadcrumb",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://vurka.vercel.app/" },
+          { "@type": "ListItem", "position": 2, "name": "FAQ", "item": "https://vurka.vercel.app/faq/" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
       {
         "@type": "Question",
         "name": "What does VURKA mean?",
@@ -90,6 +138,8 @@
       }
     ]
   }
+    ]
+  }
   </script>
 </head>
 <body>
@@ -136,12 +186,12 @@
 
       <details class="faq-item reveal">
         <summary>Is VURKA a real word in any language?</summary>
-        <p>No. VURKA is not a pre-existing word in Latin, ancient Egyptian, or Tamil. It is a constructed name built from a Latin-derived root ("Vur") and an ancient Egyptian concept ("Ka"), with an additional resonance from the Tamil word கா (kā). See the <a href="/research/" style="color:var(--gold); text-decoration:underline;">Research</a> page for the full methodology.</p>
+        <p>No. VURKA is not a pre-existing word in Latin, ancient Egyptian, or Tamil. It is a constructed name built from a Latin-derived root ("Vur") and an ancient Egyptian concept ("Ka"), with an additional resonance from the Tamil word கா (kā). See the <a href="/research/" style="color:var(--blue); text-decoration:underline;">Research</a> page for the full methodology.</p>
       </details>
 
       <details class="faq-item reveal">
         <summary>What does the "Vur" in VURKA come from?</summary>
-        <p>"Vur" is derived from the Latin word <em>vulgus</em> (and its adjective <em>vulgaris</em>), meaning "the common people" or "the general public." It's the same root that gives English the word "vulgar," though originally the term was neutral rather than negative. Full breakdown on the <a href="/origins/" style="color:var(--gold); text-decoration:underline;">Origins</a> page.</p>
+        <p>"Vur" is derived from the Latin word <em>vulgus</em> (and its adjective <em>vulgaris</em>), meaning "the common people" or "the general public." It's the same root that gives English the word "vulgar," though originally the term was neutral rather than negative. Full breakdown on the <a href="/origins/" style="color:var(--blue); text-decoration:underline;">Origins</a> page.</p>
       </details>
 
       <details class="faq-item reveal">
@@ -156,7 +206,7 @@
 
       <details class="faq-item reveal">
         <summary>Who or what is VURKA?</summary>
-        <p>VURKA is a name and brand identity representing the idea that ordinary people carry an enduring inner strength. It's used as an umbrella name for creative and technical projects, including Vurka Studios, Vurka Media, and Vurka Games. More on the <a href="/about/" style="color:var(--gold); text-decoration:underline;">About</a> page.</p>
+        <p>VURKA is a name and brand identity representing the idea that ordinary people carry an enduring inner strength. It's used as an umbrella name for creative and technical projects, including Vurka Studios, Vurka Media, and Vurka Games. More on the <a href="/about/" style="color:var(--blue); text-decoration:underline;">About</a> page.</p>
       </details>
 
       <details class="faq-item reveal">
@@ -202,6 +252,6 @@
     <div class="footer-bottom">VUR·KA · Born from struggle · Built with purpose · © VURKA · vurka.vercel.app</div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script defer src="/js/main.js"></script>
 </body>
 </html>

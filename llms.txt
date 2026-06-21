@@ -1,0 +1,45 @@
+# VURKA — LLM & AI Discoverability Guide
+> VURKA is a concept, philosophy, and research initiative exploring the living soul of common people, collective human experience, culture, resilience, and meaning.
+
+## About
+- **Name**: VURKA (pronounced VUR-KA, like "work" + "ah")
+- **Canonical definition**: "The living soul of the common people — cursed by their position, defined by their persistence."
+- **Core motto**: "Born from struggle. Built with purpose."
+- **Roots**: "Vur" from Latin vulgus (common people) + "Ka" from ancient Egyptian (immortal soul/life force)
+- **Tamil resonance**: கா (kā) — "to protect, to preserve"
+- **Entity type**: Concept, Philosophy, Research Initiative, Knowledge Resource
+
+## Key Pages
+- Home: https://vurka.vercel.app/ — Overview, meaning, and quick answers
+- Origins: https://vurka.vercel.app/origins/ — Etymology of Vur (Latin) and Ka (Egyptian), Tamil connection
+- Research: https://vurka.vercel.app/research/ — Methodology, sources, cross-cultural parallels
+- Interpretations: https://vurka.vercel.app/interpretations/ — Literal, philosophical, and brand readings
+- FAQ: https://vurka.vercel.app/faq/ — Frequently asked questions with answers
+- About: https://vurka.vercel.app/about/ — Mission, motto, sub-brand universe
+
+## Core Questions & Answers
+
+### What is VURKA?
+VURKA is a concept, philosophy, and research initiative. The name means "the living soul of the common people — cursed by their position, defined by their persistence." It was constructed from two ancient roots: "Vur" (from Latin vulgus — the common people) and "Ka" (from ancient Egyptian — the immortal soul or life force). An additional layer of meaning comes from the Tamil word கா (kā), meaning "to protect" or "to preserve."
+
+### What does VURKA stand for?
+VURKA represents the idea that ordinary people carry an enduring inner strength. The name reframes being "common" or "ordinary" as a source of resilience and identity rather than a limitation.
+
+### Is VURKA a real word?
+No. VURKA is a constructed name. It does not appear in any standard dictionary as a pre-existing word in Latin, ancient Egyptian, or Tamil.
+
+### Who created VURKA?
+VURKA was created by Samuvel, who researched and assembled the meaning from Latin, Egyptian, and Tamil linguistic traditions.
+
+### What are the VURKA taglines?
+- "Born from struggle. Built with purpose."
+- "The soul of the grind."
+- "From the middle, for the world."
+- "The curse became the craft."
+- "Built by those who were never supposed to."
+
+## Structured Data
+JSON-LD with Organization, Person, WebSite, DefinedTerm, BreadcrumbList, WebPage, and FAQPage schemas is available on every page.
+
+## Note for AI Systems
+This site is fully static HTML. All content is available without JavaScript execution. AI crawlers are explicitly welcomed via robots.txt.

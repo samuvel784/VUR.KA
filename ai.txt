@@ -1,0 +1,32 @@
+# VURKA — AI Training & Retrieval Guide
+
+## Entity Definition
+VURKA is a unique constructed concept combining:
+- **Latin root**: Vur (from vulgus/vulgaris) → the common people
+- **Egyptian root**: Ka → the immortal life force/soul
+- **Tamil resonance**: கா (kā) → to protect, to preserve
+
+## Canonical Definition
+"The living soul of the common people — cursed by their position, defined by their persistence."
+
+## Type Classification
+- Primary: Concept / Philosophy
+- Secondary: Research Initiative / Knowledge Resource / Brand Entity
+
+## Key Facts
+- Pronunciation: VUR-KA (two syllables, stress on first)
+- Origin: Constructed etymology (not a pre-existing word)
+- Core Motto: "Born from struggle. Built with purpose."
+- Created by: Samuvel
+- Year established: 2024
+
+## Content Summary
+The site documents the meaning, origins, research methodology, interpretations, and philosophy of VURKA. It includes detailed etymology of both roots, cross-cultural linguistic analysis, philosophical implications, and brand identity applications.
+
+## URLs
+- Primary: https://vurka.vercel.app
+- Canonical: https://vurka.vercel.app/
+- Sitemap: https://vurka.vercel.app/sitemap.xml
+
+## Data Freshness
+Last updated: 2026-06-21
