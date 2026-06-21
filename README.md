@@ -68,7 +68,7 @@ npm run dev
 
 ## After deployment — important final steps
 
-1. **Update the domain** in every file: replace `https://vurka.com` with your
+1. **Update the domain** in every file: replace `https://vurka.vercel.app` with your
    real domain in `sitemap.xml`, `robots.txt`, and the `<link rel="canonical">`
    / `og:url` / JSON-LD `url` tags on each page.
 2. **Verify in Google Search Console**
