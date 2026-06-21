@@ -1,0 +1,13 @@
+{
+  "name": "vurka-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "VURKA — meaning, origins, interpretations and research. A static, SEO and AI-crawler optimized website.",
+  "scripts": {
+    "dev": "npx serve . -l 3000",
+    "start": "npx serve ."
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

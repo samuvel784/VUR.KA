@@ -1,0 +1,17 @@
+{
+  "name": "VURKA — Meaning, Origins & Research",
+  "short_name": "VURKA",
+  "description": "Research and documentation of the meaning, origins, interpretations, and significance of VURKA (VUR-KA).",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0A0A0A",
+  "theme_color": "#0A0A0A",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
